@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<endpoints xmlns='http://java.sun.com/xml/ns/jax-ws/ri/runtime' version='2.0'>
+
+    <endpoint
+            name='HelloWorld'
+            implementation='example.HelloWorld'
+            url-pattern='/services/HelloWorld'/>
+    <endpoint
+            name='Web'
+            implementation='Web'
+            url-pattern='/services/Web'/>
+    <endpoint
+            name='ServiceFile'
+            implementation='ServiceFile'
+            url-pattern='/services/ServiceFile'/>
+    <endpoint
+            name='BlobService'
+            implementation='BlobService'
+            url-pattern='/services/BlobService'/>
+    <endpoint
+            name='ServicePublisher'
+            implementation='ServicePublisher'
+            url-pattern='/services/ServicePublisher'/>
+    <endpoint
+            name='WebserviceTest'
+            implementation='WebserviceTest'
+            url-pattern='/services/WebserviceTest'/>
+    <endpoint
+            name='MainService'
+            implementation='MainService'
+            url-pattern='/services/MainService'/>
+    <endpoint
+            name='Service'
+            implementation='Service'
+            url-pattern='/services/Service'/>
+    <endpoint
+            name='s'
+            implementation='s'
+            url-pattern='/services/s'/>
+    <endpoint
+            name='Client'
+            implementation='Client'
+            url-pattern='/services/Client'/>
+</endpoints>
